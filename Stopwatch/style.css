@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.container{
+    background: linear-gradient(135deg,rgb(14, 196, 237) 30% ,#c2e11079 );
+    padding: 20px;
+    width: 100%;
+    min-height: 100vh;
+}
+.stopwatch{
+    width: 100%;
+    max-width:  524px;
+    background-color: white;
+    margin: 20px auto 70px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 14px 25px rgba(0, 0, 0, 0.65);
+
+}
+#title{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-weight: bolder;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+    
+}
+.display{
+    display: flex;
+    justify-content: center;
+    font-size:29px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px ;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.35);
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 22px;
+}
+.buttons button{
+    padding: 10px 34px;
+    border-radius: 12px;
+    background: rgba(214, 255, 10, 0.981);
+    cursor: pointer;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.65);
+
+}
+button#pause{
+    background: rgb(0, 255, 115);
+}
+button#Reset{
+    background: rgb(223, 92, 166);
+}
